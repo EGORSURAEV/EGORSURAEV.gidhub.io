@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+    font-family: 'Underdog', cursive;
+    background-color: #cad315;
+    color: #487b05;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin: 30px 30;
+}
+
+h1 {
+    color:#52057b;
+    font-size: 90px;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px rgb(0, 19, 128);
+}
+
+a {
+color: black;
+text-decoration: none;
+padding: 2px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+a:visited {
+    color: rgb(78, 53, 189);
+}
+
+a:hover {
+    background: rgb(219, 217, 236);
+    text-decoration: underline;
+    color:rgb(83, 83, 12);
+}
+
+.brd {
+    border: 4px double blue;
+    padding: 10px;
+}
